@@ -1,0 +1,1550 @@
+{
+  "Agrigento": [
+    {
+      "nome": "B&B Valle dei Templi",
+      "descrizione": "Camera Matrimoniale con Balcone, Camera tripla con vista",
+      "extra": "Wi-Fi gratuito, Aria condizionata, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png" ,"camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Tempio di Concordia",
+      "descrizione": "Camera Matrimoniale con vista, Camera tripla con vista sulla città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png", "corridoio.png"]
+    }
+  ],
+  "Ancona": [
+    {
+      "nome": "B&B Riviera",
+      "descrizione": "Camera singola, Camera tripla, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "corridoio.png", "matrimoniale.png", "singola.png", "tripla.png"]
+    },
+    {
+      "nome": "B&B Brezza Marina",
+      "descrizione": "Camera Matrimoniale con vista, Camera tripla con balcone, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Aria Condizionata",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "suite.png", "matrimoniale2.png", "quadrupla.png", "tripla2.png"]
+    }
+  ],
+  "Aosta": [
+    {
+      "nome": "B&B Bosco di Neve",
+      "descrizione": "Camera Matrimoniale, Camera singola con bagno privato ",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento",
+      "prezzo": "€95 / notte",
+      "immagini":["ingresso2.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Etoile des Alpes",
+      "descrizione": "Camera Matrimoniale con balcone e bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€105 / notte",
+      "immagini": ["ingresso1.png", "camera4.png", "camera5.png", "corridoio.png"]
+    }
+  ],
+  "Arezzo": [
+    {
+      "nome": "B&B Vasari",
+      "descrizione": "Camera Matrimoniale con balcone, Camera Matrimoniale con vista",
+      "extra": "Colazione inclusa, Parcheggio privato",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Colle Dorato",
+      "descrizione": "Camera Matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€90 / notte",
+      "immagini": ["reception.png" ,"suite.png", "vista.png"]
+    }
+  ],
+  "Ascoli Piceno": [
+    {
+      "nome": "B&B Ascoli Piceno",
+      "descrizione": "Camera Matrimoniale con vista, Camera Matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito, Servizio in Camera, Parcheggio privato",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png","camera1.png", "camera2.png", "matrimoniale.png"]
+    },
+    {
+      "nome": "Corte dei Capitani",
+      "descrizione": "Camera Matrimoniale con vista, Camera tripla con balcone e bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Ascensore",
+      "prezzo": "€100 / notte",
+      "immagini": ["reception.png","camera3.png", "camera4.png", "tripla.png"]
+    }
+  ],
+  "Avellino": [
+    {
+      "nome": "B&B Irpina",
+      "descrizione": "Camera tripla con bagno privato,Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato, Reception h24", 
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png","corridoio.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B Principi Normanni",
+      "descrizione": "Camera Matrimoniale, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso2.png", "camera5.png", "camera6.png", "camera7.png", "quadrupla.png"]
+    }
+  ],
+  "Bari": [
+    {
+      "nome": "B&B San Nicola",
+      "descrizione": "Singola con Vista Mare, Camera Matrimoniale con vista città, Camera con bagno privato",
+      "extra": "Tour guidato, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€90 / notte",
+      "immagini":["ingresso.png", "camera1.png","camera2.png", "camera3.png", "camera4.png", "quadrupla2.png", "vista.png"]
+    },
+    {
+      "nome": "Dimora Castello Svevo",
+      "descrizione": "Camera matrimoniale con vista mare, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "quadrupla.png","suite.png", "vista2.png", "camera5.png", "camera6.png", "camera7.png"]
+    }
+  ],
+  "Barletta": [
+    {
+      "nome": "B&B Castel del Monte",
+      "descrizione": "Camera matrimoniale con Vista Mare, Camera singola con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B Cattedrale di Trani",
+      "descrizione": "Camera doppia con vista città, Camera matrimoniale con vista città, Camera singola con vista mare",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato, Ascensore",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png", "camera7.png", "doppia.png"]
+    }
+  ],
+  "Benevento": [
+    {
+      "nome": "B&B Iside",
+      "descrizione": "Camera tripla con vista, Camera matrimoniale con balcone, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa,Reception h24",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png","camera1.png","camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Dimora delle Streghe",
+      "descrizione": "Camera matrimoniale con balcone, Camera singola",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€60 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png", "tripla.png"]
+    }
+  ],
+  "Bergamo": [
+    {
+      "nome": "B&B Santa Grata",
+      "descrizione": "Camera matrimoniale con vista e bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Bergamo Centro",
+      "descrizione": "Suite con vista, Camera matrimoniale con balcone ",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€100 / notte",
+      "immagini": ["reception.png","camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Biella": [
+    {
+      "nome": "B&B L'ayle du Cygne",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera tripla con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Reception h24",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Bologna": [
+    {
+      "nome": "B&B Piazza Maggiore",
+      "descrizione": "Camera matrimoniale con vista, Camera tripla con bagno privato",
+      "extra": "Colazione inclusa, Tour guidato ",
+      "prezzo": "€95 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png","camera3.png", "camera4.png", "corridoio.png"]
+    },
+    {
+      "nome": "Corte delle due Torri",
+      "descrizione": "Camera matrimoniale, Camera singola con vista sulla città",
+      "extra": "Wi-Fi gratuito,Parcheggio privato, Servizio in camera",
+      "prezzo": "€115 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png", "camera7.png","corridoio2.png"]
+    }
+  ],
+  "Bolzano": [
+    {
+      "nome": "Dolomiten Traun",
+      "descrizione": "Camera tripla, Camera matrimoniale, Camera quadrupla con bagni privati",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€105 / notte",
+      "immagini": ["ingresso.png", "bagno.png", "camera1.png", "camera2.png", "tripla.png"]
+    },
+    {
+      "nome": "Bergnest- Nido di Montagna",
+      "descrizione": "Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Culla per bambini",
+      "prezzo": "€130 / notte",
+      "immagini": ["reception.png", "corridoio.png", "camera3.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Brescia": [
+    {
+      "nome": "Corte Leonessa",
+      "descrizione": "Camera matrimoniale con vista, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini":["reception.png", "camera1.png", "camera2.png", "camera5.png", "camera6.png", "camera3.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Brindisi": [
+    {
+      "nome": "Dimora della Via Appia",
+      "descrizione": "Camera matrimoniale con vista mare, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€85 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera4.png", "camera7.png", "camera6.png", "camera11.png"]
+    },
+    {
+      "nome": "Corte dei due Mari",
+      "descrizione": "Camera matrimoniale con balcone, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€100 / notte",
+      "immagini": ["reception.png", "camera5.png","camera8.png", "camera9.png", "camera10.png"]
+    }
+  ],
+  "Cagliari": [
+    {
+      "nome": "B&B Bastione di Saint Remy",
+      "descrizione": "Camera matrimoniale con balcone privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Reception h24",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Castello di San Michele",
+      "descrizione": "Camera con terrazzo, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Caltanissetta": [
+    {
+      "nome": "B&B Quartiere Angeli",
+      "descrizione": "Camera quadrupla con balcone, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato",
+      "prezzo": "€65 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Castello di Pietrarossa",
+      "descrizione": "Camera tripla, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€55 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Campobasso": [
+    {
+      "nome": "B&B Molisano",
+      "descrizione": "Camera doppia con vista, Camera matrimoniale con balcone privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€60 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png","camera4.png"]
+    },
+    {
+      "nome": "B&B Castello Monforte ",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Culla per bambini",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png", "camera7.png", "camera8.png"]
+    }
+  ],
+  "Caserta": [
+    {
+      "nome": "B&B Vanvitelliano",
+      "descrizione": "Suite con Vista Città, Camera matrimoniale, Camera tripla con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€95 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png", "camera4.png", "camera5.png"]
+    },
+    {
+      "nome": "Dimora della Reggia",
+      "descrizione": "Suite con bagno privato, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€120 / notte",
+      "immagini":["reception.png", "camera6.png", "camera7.png", "camera8.png", "camera9.png", "camera10.png", "corridoio.png"]
+    }
+  ],
+  "Catanzaro": [
+    {
+      "nome": "B&B Belvedere Ionico",
+      "descrizione": "Camera matrimoniale con vista mare",
+      "extra": "Servizio in camera, Parcheggio privato",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera3.png", "camera5.png", "camera6.png"]
+    },
+    {
+      "nome": "Corte del Duomo Antico",
+      "descrizione": "Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera7.png", "camera8.png", "camera9.png", "camera10.png"]
+    }
+  ],
+  "Chieti": [
+    {
+      "nome": "B&B di Teate",
+      "descrizione": "Camera matrimoniale con balcone, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png", "corridoio1.png"]
+    },
+    {
+      "nome": "B&B colline d'abruzzo",
+      "descrizione": "Camera quadrupla, Camera matrimoniale con vista città",
+      "extra": "Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png", "corridoio2.png"]
+    }
+  ],
+  "Como": [
+    {
+      "nome": "Scorcio d'Acqua B&B",
+      "descrizione": "Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento e Aria condizionata",
+      "prezzo": "€140 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Specchio di Como",
+      "descrizione": "Camera singola, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Macchinetta caffè in camera",
+      "prezzo": "€120 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Cosenza": [
+    {
+      "nome": "B&B Corso Telesio",
+      "descrizione": "Camera singola con balcone privato, Camera matrimoniale con bagno privato",
+      "extra": "Colazione inclusa",
+      "prezzo": "€55 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B dei due Fiumi",
+      "descrizione": "Camera matrimoniale con vista e bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png","camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Cremona": [
+    {
+      "nome": "B&B Note a Riposo",
+      "descrizione": "Camera singola con vista, Camera tripla con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png","camera1.png", "camera2.png", "camera3.png", "camera4.png"]
+    },
+    {
+      "nome": "Corte Cremona",
+      "descrizione": "Suite con vasca idromassaggio, Camera tripla, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€130 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png", "camera7.png", "camera8.png"]
+    }
+  ],
+  "Crotone": [
+    {
+      "nome": "Dimora di Pitagora",
+      "descrizione": "Camera tripla con balcone, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Televisione, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera2.png", "camera5.png", "camera6.png"]
+    },
+    {
+      "nome": "Tempio di Hera Lacinia",
+      "descrizione": "Camera quadrupla con bagno privato, Camera singola, Camera doppia",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera1.png", "camera4.png", "camera3.png"]
+    }
+  ],
+  "Cuneo": [
+    {
+      "nome": "B&B Balcone di Cuneo",
+      "descrizione": "Camere matrimoniali, 1 bagno in comune",
+      "extra": "Wi-Fi gratuito,Servizio in camera",
+      "prezzo": "€60 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "Tra le due Valli",
+      "descrizione": "Camera quadrupla con letti a castello, Camera con bagno privato",
+      "extra": "Colazione inclusa",
+      "prezzo": "€75 / notte",
+      "immagini":["reception.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Enna": [
+    {
+      "nome": "B&B Rocca di Cecere",
+      "descrizione": "Camere matrimoniali",
+      "extra": "Wi-Fi gratuito,Televisione",
+      "prezzo": "€50 / notte",
+      "immagini": ["ingresso.png", "camera2.png", "camera3.png", "camera4.png"]
+    },
+    {
+      "nome": "Belvedere di Sicilia B&B",
+      "descrizione": "Camera tripla con vista, Camera matrimoniale con bagno",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png", "camera1.png"]
+    }
+  ],
+  "Ferrara": [
+    {
+      "nome": "Dimora Ariosto",
+      "descrizione": "Camera matrimoniale con vista, Camera con bagno privato",
+      "extra": "Colazione inclusa, Tour guidato",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Corte del Castello",
+      "descrizione": "Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Firenze": [
+    {
+      "nome": "B&B Domus Dell'Arno",
+      "descrizione": "Camera matrimoniale con balcone, Camera con vista",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Televisione",
+      "prezzo": "€130 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Corte degli Uffizi",
+      "descrizione": "Suite con vista, Camera con balcone esposto sull'Arno",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Vasca idromassaggio, Tour guidato",
+      "prezzo": "€180 / notte",
+      "immagini":["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Foggia": [
+    {
+      "nome": "B&B Murgia Foggiana",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa,Televisione",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Piana Dorata",
+      "descrizione": "Camera quadrupla con letti a castello, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€55 / notte",
+      "immagini": ["reception.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Forlì-Cesena": [
+    {
+      "nome": "B&B Romagna",
+      "descrizione": "Camera matrimoniale, bagno in comune",
+      "extra": "Wi-Fi gratuito,Cassaforte",
+      "prezzo": "€60 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Casalvento",
+      "descrizione": "Camera con bagno privato, Camera con balcone",
+      "extra": "Servizio in camera, Parcheggio privato",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Frosinone": [
+    {
+      "nome": "B&B Porta Campanile",
+      "descrizione": "Camera tripla con vista, Camera matrimoniale con vista, bagno in comune",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€55 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B la Ciociara",
+      "descrizione": "Camera matrimoniale, Camera tripla con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€65 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Genova": [
+    {
+      "nome": "Casa al Molo",
+      "descrizione": "Suite con vista, Camera matrimoniale, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato",
+      "prezzo": "€110 / notte",
+      "immagini": ["ingresso.png", "bagno.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Colle di Mare",
+      "descrizione": "Camera quadrupla con balcone privato, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera, Televisione",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera5.png","camera4.png"]
+    }
+  ],
+  "Gorizia": [
+    {
+      "nome": "Dimora Transalpina",
+      "descrizione": "Camera matrimoniale, Camera tripla, bagno in comune",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "Gorizia",
+      "descrizione": "Camera tripla, Camera matrimoniale, bagni privati",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera3.png","camera4.png"]
+    }
+  ],
+  "Grosseto": [
+    {
+      "nome": "B&B del Sole",
+      "descrizione": "Camera matrimoniale, Camera doppia",
+      "extra": "Wi-Fi gratuito,Televisione, Riscaldamento, Aria condizionata",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B San Lorenzo",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Parcheggio privato",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso2.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Imperia": [
+    {
+      "nome": "Mare e Sole B&B",
+      "descrizione": "Camera matrimoniale con vista mare, Camera con balcone privato",
+      "extra": "Wi-Fi gratuito,Macchinetta del caffè",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso.png","camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Tramonto Ligure",
+      "descrizione": "Camera matrimoniale con balcone, Camera tripla con bagno",
+      "extra": "Servizio in camera,Televisione",
+      "prezzo": "€90 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Isernia": [
+    {
+      "nome": "B&B Mura Longobarde",
+      "descrizione": "Camere con vista città, bagni in comune",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€55 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B del Volturno",
+      "descrizione": "Camera con bagno privato, Camere con vista città",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€60 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "La Spezia": [
+    {
+      "nome": "Casa sul Golfo B&B",
+      "descrizione": "Camera tripla, Camera matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione, Cassaforte, Riscaldamento",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "vista.png"]
+    },
+    {
+      "nome": "B&B Brezza del Molo",
+      "descrizione": "Camera singola con vista mare, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Televisione, Cassaforte",
+      "prezzo": "€115 / notte",
+      "immagini": ["reception.png", "corridoio.png", "camera4.png", "camera3.png"]
+    }
+  ],
+  "L'Aquila": [
+    {
+      "nome": "B&B Gran Sasso",
+      "descrizione": "Camera con vista, Camera matrimoniale, bagni privati",
+      "extra": "Wi-Fi gratuito, Televisione, Culla per bambini",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Porta Riviera",
+      "descrizione": "Camera matrimoniale, bagno comune",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€55 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Latina": [
+    {
+      "nome": "B&B Latina Centro",
+      "descrizione": "Camera matrimoniale, Camera tripla, bagno privato",
+      "extra": "Colazione inclusa, Servizio in camera",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera4.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Pontina",
+      "descrizione": "Camera con balcone, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito,Parcheggio privato",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera1.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Lecce": [
+    {
+      "nome": "B&B Barocco Fiorito",
+      "descrizione": "Camera tripla con vista mare, Camera con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato, Servizio in camera",
+      "prezzo": "€95 / notte",
+      "immagini":[ "ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Corte Lecce Vecchia",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Lecco": [
+    {
+      "nome": "B&B Casa Lucia",
+      "descrizione": "Camera matrimoniale con balcone, Camera con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "La Stanza dei Promessi",
+      "descrizione": "Camera con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento, Aria condizionata",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Livorno": [
+    {
+      "nome": "B&B Piazza Cavour",
+      "descrizione": "Camera matrimoniale con vista città, Bagni comuni",
+      "extra": "Wi-Fi gratuito, Aria condizionata, Parcheggio privato",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B delle Navi",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera6.png", "corridoio.png"]
+    }
+  ],
+  "Lucca": [
+    {
+      "nome": "B&B Bel Canto",
+      "descrizione": "Camere matrimoniali con bagno privato, Camere quadruple",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Puccini",
+      "descrizione": "Camere con vista e bagno privato, Camere quadruple",
+      "extra": "Wi-Fi gratuito, Colazione inclusa,",
+      "prezzo": "€100 / notte",
+      "immagini":["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Macerata": [
+    {
+      "nome": "B&B Tramonto Marchigiano",
+      "descrizione": "Camera matrimoniale con divano letto, Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€70 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Porta Montana",
+      "descrizione": "Camera matrimoniale con balcone, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Mantova": [
+    {
+      "nome": "Corte Fiorita",
+      "descrizione": "Camere con vista, bagni comuni",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€60 / notte",
+      "immagini": ["ingresso.png", "camera2.png", "camera6.png", "camera1.png"]
+    },
+    {
+      "nome": "B&B del Centro",
+      "descrizione": "Camera tripla, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito,Televisione,Servizio in camera",
+      "prezzo": "€85 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Massa-Carrara": [
+    {
+      "nome": "Corte di Carrara",
+      "descrizione": "Camera con vista, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito,Servizio in camera",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera4.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Malaspina",
+      "descrizione": "Camera matrimoniale con vasca, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Matera": [
+    {
+      "nome": "B&B Matera Centro Storico",
+      "descrizione": "Camere con bagno privato, Camere con vista sui Sassi",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato",
+      "prezzo": "€110 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Belvedere dei Sassi",
+      "descrizione": "Camera con bagno privato, Camere con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato, Servizio in camera, Riscaldamento, Aria condizionata",
+      "prezzo": "€130 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Messina": [
+    {
+      "nome": "B&B Fata Morgana",
+      "descrizione": "Camera matrimoniale con balcone privato, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Orologio Astronomico",
+      "descrizione": "Camera con bagno privato, Camera con terrazzo privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€90 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Milano": [
+    {
+      "nome": "B&B Navigli",
+      "descrizione": "Suite vista navigli, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Macchinetta del caffè, Televisione, Riscaldamento",
+      "prezzo": "€150 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B CityMood Milano",
+      "descrizione": "Suite con vista, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Riscaldamento, Televisione",
+      "prezzo": "€130 / notte",
+      "immagini": ["ingresso2.png", "corridoio2.png", "camera4.png", "camera5.png"]
+    },
+    {
+      "nome": "B&B Scala e Duomo",
+      "descrizione": "Suite con bagno privato, Camera con vista e bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Vasca idromassaggio, Servizio in camera",
+      "prezzo": "€180 / notte",
+      "immagini": ["ingresso3.png", "suite.png", "corridoio1.png", "camera6.png"]
+    }
+  ],
+  "Modena": [
+    {
+      "nome": "B&B La Voce Nascosta",
+      "descrizione": "Camera con bagno privato, Camera con vista",
+      "extra": "Colazione inclusa,",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso2.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Silenzio in Scala",
+      "descrizione": "Camera matrimoniale, Camera tripla con vista",
+      "extra": "Wi-Fi gratuito, Riscaldamento, Macchinetta del caffè",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Monza": [
+    {
+      "nome": "Vicolo delle rose B&B",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Culla per bambini, Servizio in camera",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Colline di Quiete",
+      "descrizione": "Camere con vista, bagni comuni",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€60 / notte",
+      "immagini":["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Napoli": [
+    {
+      "nome": "B&B Partenope",
+      "descrizione": "Camere con vista città, Camere con vista mare",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Toledo",
+      "descrizione": "Camera matrimoniale con balcone, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Riscaldamento",
+      "prezzo": "€85 / notte",
+      "immagini":["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    },
+    {
+      "nome": "Dimora del Vesuvio",
+      "descrizione": "Camera tripla, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Parcheggio privato",
+      "prezzo": "€120 / notte",
+      "immagini":["reception.png", "camera7.png", "camera8.png", "camera9.png"]
+    }
+  ],
+  "Novara": [
+    {
+      "nome": "B&B Novara",
+      "descrizione": "Camera singola, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Culla per neonati, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Gocce di Nebbia",
+      "descrizione": "Camera tripla, Camera singola,Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Nuoro": [
+    {
+      "nome": "B&B Grazia Deledda",
+      "descrizione": "Camera matrimoniale con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Dimora monte Ortobene",
+      "descrizione": "Camere con vista",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Oristano": [
+    {
+      "nome": "B&B della Sartiglia",
+      "descrizione": "Suite con vista e bagno privato, Camera con terrazzo",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Eleonora d'Arborea",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Riscaldamento, Aria condizionata",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Padova": [
+    {
+      "nome": "Dimora Galileo",
+      "descrizione": "Camera con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera, Televisione",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "corridoio.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B Colli Euganei",
+      "descrizione": "Camera quadrupla, Camera matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera2.png", "camera3.png", "corridoio2.png"]
+    }
+  ],
+  "Palermo": [
+    {
+      "nome": "Dimora dei Quattro Canti",
+      "descrizione": "Camere con bagno privato, Camere con bagno esterno",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento, Tour guidato",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Corte del Cassaro Antico",
+      "descrizione": "Camere con balcone comune, Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Parma": [
+    {
+      "nome": "B&B Verdi",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Teatro Regio",
+      "descrizione": "Camere con bagno privato e vista città",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Parcheggio privato",
+      "prezzo": "€105 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Perugia": [
+    {
+      "nome": "B&B Giardino Umbro",
+      "descrizione": "Suite con balcone, Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione, Riscaldamento",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Perugina",
+      "descrizione": "Suite, Camera con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour Fabbrica del Cioccolato, Culla per neonati",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Pesaro e Urbino": [
+    {
+      "nome": "Dimora Ducale",
+      "descrizione": "Camera singola, Camera tripla con vista",
+      "extra": "Wi-Fi gratuito, Televisione",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Raffaello",
+      "descrizione": "Suite con vasca, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato, Riscaldamento",
+      "prezzo": "€100 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Pescara": [
+    {
+      "nome": "B&B D'Annunziano",
+      "descrizione": "Camera matrimoniale con vista, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png","camera3.png"]
+    },
+    {
+      "nome": "B&B Porta Nuova",
+      "descrizione": "Camera con bagno privato, Camera matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€65 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Pisa": [
+    {
+      "nome": "B&B Torre Pendente",
+      "descrizione": "Camera con bagno privato, Camera con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato",
+      "prezzo": "€95 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera5.png", "camera6.png"]
+    },
+    {
+      "nome": "B&B Pisa Centro Storico",
+      "descrizione": "Camera con vista, Camera tripla",
+      "extra": "Wi-Fi gratuito, Culla per neonati",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera2.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Pordenone": [
+    {
+      "nome": "B&B Casa Pordenone",
+      "descrizione": "Suite con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio privato, Riscaldamento",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera5.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Centro Storico",
+      "descrizione": "Camera tripla, Camera quadrupla, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito,Servizio in camera, Riscaldamento",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera2.png", "camera4.png", "camera6.png"]
+    }
+  ],
+  "Potenza": [
+    {
+      "nome": "B&B Pretoria",
+      "descrizione": "Suite con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Dimora San Gerardo",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera quadrupla, Camera tripla",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Riscaldamento, Aria Condizionata",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    },
+    {
+      "nome": "B&B Musumeci",
+      "descrizione": "Camera con bagno privato, Camera matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera7.png", "camera8.png", "camera9.png"]
+    }
+  ],
+  "Prato": [
+    {
+      "nome": "B&B del Bisenzio",
+      "descrizione": "Camera con vista, Camera quadrupla con bagno privato",
+      "extra": "Wi-Fi gratuito, Riscaldamento",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png", "camera8.png"]
+    },
+    {
+      "nome": "B&B Prato Centro",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png", "camera7.png"]
+    }
+  ],
+  "Ragusa": [
+    {
+      "nome": "Dimora del Duomo di San Giorgio",
+      "descrizione": "Camera matrimoniale con balcone, Camera doppia con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Giardino Ibleo",
+      "descrizione": "Suite con vista, Suite con balcone privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in Camera, Riscaldamento",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Ravenna": [
+    {
+      "nome": "B&B Corte dei Mosaici",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera tripla con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "La Sosta del Poeta",
+      "descrizione": "Camere con vista città",
+      "extra": "Colazione inclusa,Tour guidato",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso2.png", "camera3.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B delle Ninfe",
+      "descrizione": "Camere con vista",
+      "extra": "Wi-Fi gratuito, Parcheggio privato",
+      "prezzo": "€75 / notte",
+      "immagini":["reception.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Reggio di Calabria": [
+    {
+      "nome": "B&B dei Bronzi",
+      "descrizione": " Camera con vista mare, Camera con bagno privato, Camera quadrupla",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Arena dello Stretto",
+      "descrizione": "Camera doppia, Camera matrimoniale con balcone",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Reggio Emilia": [
+    {
+      "nome": "B&B Corte Reggiana",
+      "descrizione": "Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Riscaldamento",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B il Portico",
+      "descrizione": "Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Rieti": [
+    {
+      "nome": "B&B del Terminillo",
+      "descrizione": "Camera singola con bagno privato, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Porta d'Arce",
+      "descrizione": "Camera tripla, Camera singola con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Rimini": [
+    {
+      "nome": "B&B Riva di Sogni",
+      "descrizione": "Camere matrimoniali con vista città, Camere con balcone privato",
+      "extra": "Wi-Fi gratuito, Televisione, Servizio in camera",
+      "prezzo": "€95 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B l'onda d'oro",
+      "descrizione": "Camere matrimoniali con vista",
+      "extra": "Wi-Fi gratuito, Televisione",
+      "prezzo": "€110 / notte",
+      "immagini":[ "ingresso2.png", "camera3.png", "corridoio.png"]
+    },
+    {
+      "nome": "B&B Amarcord",
+      "descrizione": "Camera tripla, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito,Televisione, Riscaldamento",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Roma": [
+    {
+      "nome": "B&B sul Tevere",
+      "descrizione": "Suite con vista, Camera con bagno privato ",
+      "extra": "Wi-Fi gratuito, Televisione,Servizio in camera",
+      "prezzo": "€140 / notte",
+      "immagini": ["ingresso.png", "camera5.png", "camera6.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B sette colli",
+      "descrizione": "Suite con vista città, Camera con bagno privato, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione, Tour guidato",
+      "prezzo": "€160 / notte",
+      "immagini": ["ingresso2.png", "camera1.png", "camera2.png", "camera4.png"]
+    }
+  ],
+  "Salerno": [
+    {
+      "nome": "B&B dimora della Costiera",
+      "descrizione": "Suite con vista mare, Camera doppia con vista mare",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera, Aria Condizionata",
+      "prezzo": "€120 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B Salerno Centro",
+      "descrizione": "Suite con vista città, Camera con vista città",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€90 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Sassari": [
+    {
+      "nome": "B&B Piazza d'Italia",
+      "descrizione": "Camera con vista città",
+      "extra": "Wi-Fi gratuito, Frigo Bar in camera",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Castello Aragonese",
+      "descrizione": "Camere con bagno comune",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€60 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Savona": [
+    {
+      "nome": "Corte del Priamar",
+      "descrizione": "Camera tripla, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè, Televisione",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Vicolo Marina",
+      "descrizione": "Camera tripla con bagno privato, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€70 / notte",
+      "immagini": ["ingresso2.png", "camera4.png", "camera5.png", "bagno.png"]
+    }
+  ],
+  "Siena": [
+    {
+      "nome": "B&B Porta Romana",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B dimora dei nove",
+      "descrizione": "Camera doppia, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€115 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera3.png"]
+    }
+  ],
+  "Siracusa": [
+    {
+      "nome": "B&B Tempio di Apollo",
+      "descrizione": "Camera con bagno privato, Camera con balcone privato",
+      "extra": "Wi-Fi gratuito,Frigo bar",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Dionisio",
+      "descrizione": "Suite con vista mare, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Tour guidato, Culla per neonati",
+      "prezzo": "€130 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png"]
+    },
+    {
+      "nome": "B&B Tramonto su Ortigia",
+      "descrizione": "Suite con vista, Camera tripla con bagno privato ",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€120 / notte",
+      "immagini": ["reception2.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Sondrio": [
+    {
+      "nome": "B&B Corte Valtellina",
+      "descrizione": "Camera tripla, Camera quadrupla, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "corridoio.png"]
+    },
+    {
+      "nome": "B&B Sondrio",
+      "descrizione": "Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Culla per bambini",
+      "prezzo": "€85 / notte",
+      "immagini": ["reception.png","camera3.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Taranto": [
+    {
+      "nome": "B&B Isola Antica",
+      "descrizione": "Suite con vista mare, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€90 / notte",
+      "immagini":["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Brezza Tarantina",
+      "descrizione": "Camera tripla con vista mare, Camera quadrupla",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€65 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Teramo": [
+    {
+      "nome": "B&B Teramo Centro",
+      "descrizione": "Camera con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Porta Reale",
+      "descrizione": "Camera tripla con balcone, Camera matrimoniale, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito,Televisione",
+      "prezzo": "€75 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Terni": [
+    {
+      "nome": "B&B delle Marmore",
+      "descrizione": "Camera singola con vista, Camera tripla con bagno privato",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B Piazza Tacito",
+      "descrizione": "Camera tripla, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Televisione",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Torino": [
+    {
+      "nome": "B&B Luce Antonelliana",
+      "descrizione": "Camera doppia, Camera matrimoniale, bagno privato",
+      "extra": "Wi-Fi gratuito, Frigo bar",
+      "prezzo": "€90 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "bagno1.png"]
+    },
+    {
+      "nome": "La Corte del Po",
+      "descrizione": "Camera singola, Camera matrimoniale, bagno comune",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png", "bagno2.png"]
+    }
+  ],
+  "Trapani": [
+    {
+      "nome": "B&B Centro Storico",
+      "descrizione": "Suite con vista mare, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "B&B Colombaia",
+      "descrizione": "Camere con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€70 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Trento": [
+    {
+      "nome": "Vista sulle Dolomiti",
+      "descrizione": "Camera matrimoniale con vista, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso.png","camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Finestra Alpina",
+      "descrizione": "Camera singola, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè, Riscaldamento",
+      "prezzo": "€115 / notte",
+      "immagini": ["reception2.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Treviso": [
+    {
+      "nome": "Corte Trevigiana",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€80 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Vicolo Trevisan",
+      "descrizione": "Camera quadrupla, Camera con balcone privato, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Trieste": [
+    {
+      "nome": "B&B alla Riva",
+      "descrizione": "Camera tripla, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Macchinetta del caffè, Televisione",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Gastehaus Triest",
+      "descrizione": "Camera matrimoniale, Camera quadrupla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione, Riscaldamento",
+      "prezzo": "€95 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Udine": [
+    {
+      "nome": "Dimora Friuliana",
+      "descrizione": "Camere con vista, bagni comuni",
+      "extra": "Wi-Fi gratuito, Servizio in camera, Televisione ",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso1.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B sul fiume",
+      "descrizione": "Camera matrimoniale, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Riscaldamento ",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Varese": [
+    {
+      "nome": "Dimora Varesina",
+      "descrizione": "Suite con vista città, Camera con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Macchinetta del caffè presente in camera",
+      "prezzo": "€90 / notte",
+      "immagini":[ "ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Residenza dei sette laghi",
+      "descrizione": "Camera matrimoniale, Camera quadrupla con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€80 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Venezia": [
+    {
+      "nome": "Casa sul Rio",
+      "descrizione": "Suite con Vista, Camera quadrupla con bagno privato",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Tour guidato, Riscaldamento, Aria Condizionata",
+      "prezzo": "€200 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "Finestra sul Canale",
+      "descrizione": "Suite con vista, Camera con bagno privato, Camera singola ",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€180 / notte",
+      "immagini": ["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Vercelli": [
+    {
+      "nome": "B&B Torre e Corte",
+      "descrizione": "Camera doppia, Camera tripla, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€60 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "La goccia Verde",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione ",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso2.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Verona": [
+    {
+      "nome": "Corte d'Amore",
+      "descrizione": "Suite con vista, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Servizio in camera, Vasca idromassaggio",
+      "prezzo": "€150 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera3.png", "camera6.png"]
+    },
+    {
+      "nome": "Dimora dell'Arena",
+      "descrizione": "Camera tripla, Camera quadrupla con vista, Camera doppia",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€110 / notte",
+      "immagini": ["reception.png", "camera2.png", "camera4.png", "camera5.png"]
+    }
+  ],
+  "Vibo Valentia": [
+    {
+      "nome": "B&B Belvedere Tirreno",
+      "descrizione": "Camera singola con balcone, Camera matrimoniale con bagno privato",
+      "extra": "Wi-Fi gratuito, Servizio in camera",
+      "prezzo": "€65 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png"]
+    },
+    {
+      "nome": "Corte di Santa Maria Maggiore",
+      "descrizione": "Camera singola con bagno privato, Camera matrimoniale",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€55 / notte",
+      "immagini": ["reception.png", "camera3.png", "camera4.png"]
+    }
+  ],
+  "Vicenza": [
+    {
+      "nome": "Corte del Palladio",
+      "descrizione": "Camera matrimoniale con bagno privato, Camera tripla",
+      "extra": "Wi-Fi gratuito, Colazione inclusa",
+      "prezzo": "€85 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera3.png"]
+    },
+    {
+      "nome": "B&B il Cortile",
+      "descrizione": "Camera matrimoniale con balcone, Camera tripla",
+      "extra": "Wi-Fi gratuito",
+      "prezzo": "€70 / notte",
+      "immagini":["reception.png", "camera4.png", "camera5.png", "camera6.png"]
+    }
+  ],
+  "Viterbo": [
+    {
+      "nome": "B&B Viterbo Centro Storico",
+      "descrizione": "Camera quadrupla con balcone, Camera matrimoniale con vista",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Televisione",
+      "prezzo": "€75 / notte",
+      "immagini": ["ingresso.png", "camera1.png", "camera2.png", "camera5.png"]
+    },
+    {
+      "nome": "Corte della Tuscia",
+      "descrizione": "Suite con Vista Mare",
+      "extra": "Wi-Fi gratuito, Colazione inclusa, Parcheggio privato",
+      "prezzo": "€100 / notte",
+      "immagini": ["ingresso2.png", "camera3.png", "camera4.png", "camera6.png"]
+    }
+  ]
+}
