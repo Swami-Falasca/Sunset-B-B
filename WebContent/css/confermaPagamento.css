@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+
+/* Sfondo pagina */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Contenitore centrale */
+.success-container {
+    text-align: center;
+    color: #0f172a; /* blu scuro */
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Titolo principale */
+.success-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+/* Icona verde con cerchio */
+.success-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #22c55e; /* verde */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.success-icon span {
+    font-size: 50px;
+    color: white;
+}
+
+/* Testo principale */
+.success-message {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Testo secondario */
+.success-redirect {
+    font-size: 16px;
+    color: #334155; /* grigio scuro */
+}
