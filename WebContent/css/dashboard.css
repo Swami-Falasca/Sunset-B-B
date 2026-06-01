@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+
+
+
+/* Base e layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Titolo della sezione */
+.section-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2B586F;
+  margin-top: 100px;          /* più spazio superiore */
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Card layout */
+.card-container {
+  display: flex;
+  gap: 60px;                  /* più spazio tra le card */
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  margin-top: 130px;           /* scende ulteriormente rispetto al titolo */
+}
+
+/* Card singola */
+.admin-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 40px;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenuto della card */
+.admin-card a {
+  text-decoration: none;
+  color: #2D5873;
+  font-weight: 600;
+  font-size: 18px;            /* testo più grande */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icona nella card */
+.admin-card img {
+  width: 80px;                /* icona più grande */
+  height: 80px;
+}
+
+/* Effetto hover */
+.admin-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.dashboard-topbar {
+  width: 100%;
+  padding: 30px 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.dashboard-topbar h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2D5873;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2D5873;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+
+  .admin-card a {
+    font-size: 20px;
+  }
+
+  .admin-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  }
+  @media (max-width: 480px) {
+  .admin-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .dashboard-topbar h1 {
+    font-size: 20px;
+  }
+
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+  
+}
