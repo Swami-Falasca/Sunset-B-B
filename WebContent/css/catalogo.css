@@ -1,0 +1,168 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ccc; /* bordo esterno ben visibile */
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+td img {
+  width: 50px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.status-stock {
+  color: green;
+  font-weight: bold;
+}
+
+.status-out {
+  color: red;
+  font-weight: bold;
+}
+
+.actions i {
+  font-size: 18px;
+  color: #444;
+  margin-right: 12px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.actions i:hover {
+  color: #007bff;
+}
+
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration:none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+}
+
+
+.add-button {
+  background-color: #FFFFFF;
+  color: #2D5873;
+  float: right;
+  margin-top: -10px;
+}
+
+.add-button:hover {
+  background-color: #2D5873;
+  color: white;
+}
+  
+
+.add-button:hover {
+  background-color: #2D5873;
+  color: white;
+}
+.add-button:hover {
+  background-color: #2D5873;
+  color: white;
+}
+
+.return-button {
+  background-color: #FFFFFF;
+  color: #6c757d;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.return-button:hover {
+  background-color: transparent;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.actions a {
+    display: inline-block;
+    margin-right: 14px; 
+    text-decoration: none; 
+}
+
+.actions i.action-icon {
+    font-size: 18px;
+    color: #444;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+}
+
+.actions i.action-icon:hover {
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  td img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+  .tabella-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tabella-responsive table {
+  width: 100%;
+  min-width: 600px; /* o più, se necessario */
+  border-collapse: collapse;
+}
+
+.tabella-responsive td,
+.tabella-responsive th {
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+  
+}
