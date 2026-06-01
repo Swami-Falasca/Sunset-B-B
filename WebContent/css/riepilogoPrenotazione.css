@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* Font e struttura base */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0px;
+    color: #333;
+    color: #2D5873;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     width: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo_header {
+  width: 60px;
+  margin-right: 15px;
+  height: 80px;
+  width: auto;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+
+/* Contenitore principale */
+.riepilogo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+/* Sezione foto */
+.riepilogo-foto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px; /* adatta in base alla tua foto media */
+    justify-content: space-between;
+}
+
+.riepilogo-foto img {
+max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Bottoni affiancati */
+.riepilogo-bottoni {
+     display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 20px;
+    position: relative;
+    right: -600px;
+}
+
+
+.riepilogo-bottoni form {
+    flex: 0 0 auto;
+    
+}
+
+
+.riepilogo-bottoni button {
+    width: 100%;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Bottone Modifica: bianco con bordo */
+.btn-modifica {
+    display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  background-color: white;
+  color: #808080;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid white;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif
+}
+
+.btn-modifica:hover {
+   background-color: #dbdbdb;
+  color: #626262;
+}
+
+/* Bottone Avanti: stesso stile di Prenota e paga */
+.btn-avanti {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-avanti:hover {
+    background-color: #00509e;
+}
+
+
+
+/* Sezione info */
+.riepilogo-info {
+    flex: 1.5;
+}
+
+.riepilogo-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.riepilogo-info strong {
+    color: #2c3e50;
+    
+}
+.icon {
+  color: #999;
+  margin-right: 6px;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .riepilogo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .riepilogo-foto,
+    .riepilogo-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .riepilogo-bottoni {
+        flex-direction: column;
+    }
+}
