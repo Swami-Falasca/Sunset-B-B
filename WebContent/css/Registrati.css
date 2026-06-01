@@ -1,0 +1,179 @@
+@charset "UTF-8";
+      
+       body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+ header {
+  color:#2d5873;
+  font-family:'Poppins',sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 500;	
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4rem ;
+}
+
+  #logo_header {
+  width: 60px;
+  margin-right: 21px;
+  height: 80px;
+  width: auto;
+
+}
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 140px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+        	margin-bottom:200px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #2d5873;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            width: 160px;
+            font-weight: 500;
+            color: #2d5873;
+        }
+
+        input, select {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .info {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .info a {
+            color: #2d5873;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #2d5873;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #1f3f54;
+        }
+
+      
+        /* 1. Wrapper generale */
+.wrapper {
+  min-height: 100vh; /* occupa almeno tutta l'altezza dello schermo */
+  display: flex;
+  flex-direction: column;
+}
+
+/* 2. Main (contenuto che cresce) */
+main {
+  flex: 1;
+}
+
+/* 3. Footer (normale) */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+        
+    .terms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.terms-container label {
+    margin: 0;
+    font-weight: 500;
+    color: #2d5873;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+}
+
+.terms-container input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 0;
+    max-width:10px;
+}
+
+.form-group.terms-container {
+    justify-content: center;
+    margin-top: 10px;
+}
+input #nome:focus{
+	outline:none;
+	border:2px solid #ccc;
+}
+
+
+.user-name-box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.user-name-box .nome {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2d5873;
+    margin-bottom: 5px;
+}
+
+.user-name-box .cognome {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #2d5873;
+}
