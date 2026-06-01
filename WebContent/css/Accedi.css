@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 100px auto;  /* Centrato orizzontalmente + spazio dall'alto */
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.social-login {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google { background-color: #db4437; color: white; }
+.apple { background-color: black; color: white; }
+.facebook { background-color: #3b5998; color: white; }
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    padding-top: 15px;
+}
+
+#nome, #email, #password {
+    align-items: center;
+    margin: auto;
+}
+
+#nome {
+    width: 100%;
+    height: 17px;
+}
+
+#nome, #email, #password:focus {
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: 5px;
+    font-size: 12px;
+}
+
+label {
+    position: absolute;
+    left: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 2px;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-50%);
+    top: 20px;
+}
+
+.accedi-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2D5873;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    font-size: 12px;
+}
+
+.alert-danger {
+    background-color: #fde8e8;
+    color: #c0392b;
+    border: 1px solid #e74c3c;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.alert-info {
+    background-color: #e8f4fd;
+    color: #2980b9;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 14px;
+    font-size: 0.88rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
