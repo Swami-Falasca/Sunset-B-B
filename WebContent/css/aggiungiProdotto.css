@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* Stile generale per body */ 
+body { 
+	font-family: 'Poppins', sans-serif; 
+ 	background-color: #f4f4f4; 
+	margin: 0; 
+	padding: 40px; 
+
+}
+
+/* Titolo */ 
+h2 { 
+	text-align: center; 
+	color: #333; 
+	margin-bottom: 30px; 
+	} 
+	
+/* Form */ 
+form {
+	 max-width: 600px; 
+	 margin: 0 auto; 
+	 background-color: #fff; 
+	 padding: 30px; 
+	 border: 1px solid #ddd; 
+	 border-radius: 8px; 
+	 box-shadow: 0 0 10px rgba(0,0,0,0.05); 
+	 }
+	 
+/* Label */ 
+form label { 
+	display: block; 
+	margin-bottom: 15px; 
+	color: #555; 
+	font-weight: 500; 
+	}
+	
+/* Input + Textarea */ 
+form input[type="text"], 
+form input[type="number"], 
+form textarea,
+input[type="file"] { 
+	width: 100%; 
+	padding: 10px; 
+	margin-top: 5px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	 resize: none;
+    overflow-y: auto;
+	}
+	
+	form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+/* Riquadro sotto immagine */ 
+/*.box-immagine { 
+	width: 100%; 
+	height: 120px; 
+	margin-top: 10px; 
+	background-color: #f9f9f9; 
+	border: 1px dashed #ccc; 
+	border-radius: 6px; 
+	box-sizing: border-box; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	color: #999; 
+	font-style: italic; 
+	}*/
+	
+	
+/* Bottoni */ 
+form button[type="submit"] { 
+	background-color: #007bff; 
+	color: white; 
+	border: none; 
+	padding: 12px 20px; 
+	border-radius: 5px; 
+	font-weight: 600; 
+	cursor: pointer; 
+	transition: background-color 0.3s ease; 
+		
+	}
+	
+form button[type="submit"]:hover { 
+	background-color: #0056b3; 
+	}
+	
+/* Link Torna Indietro */ 
+a[href*="prodotti"] { 
+	display: block; 
+	text-align: center; 
+	margin-top: 20px; 
+	text-decoration: none; 
+	color: #555; 
+	font-weight: 500; 
+	transition: color 0.2s ease; 
+	}
+	
+a[href*="prodotti"]:hover { 
+	color: #007bff; 
+	}
+	
+	img.prodotto-img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+	
+/*.file-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.file-entry button {
+  background: none;
+  border: none;
+  color: #ff5555;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}*/
+	
