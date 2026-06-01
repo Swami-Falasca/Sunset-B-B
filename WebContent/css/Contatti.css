@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* File: Contatti.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fa;
+  margin: 0;
+  padding: 0;
+  color: #2D5873;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#logo_header {
+  height: 80px;
+  width: auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+
+  color: #2D5873;
+  text-align: right;
+}
+
+nav {
+  background-color: #2D5873;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.pagina-contatti {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.pagina-contatti h2 {
+  text-align: center;
+  color: #2D5873;
+  margin-bottom: 2rem;
+}
+
+.form-contatti {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-contatti label {
+  font-weight: 500;
+}
+
+.form-contatti input[type="text"],
+.form-contatti input[type="email"],
+.form-contatti textarea {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-buttons {
+  align-self: center;
+  padding: 12px 30px;
+  background-color: #2D5873;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-buttons:hover {
+  background-color: #204355;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
