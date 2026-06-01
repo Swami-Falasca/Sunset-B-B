@@ -1,6 +1,4 @@
 
-#SunsetB&B 
-
 🎯 Obiettivo del progetto
 
 **SunsetB&B** nasce con l’obiettivo di essere il punto di riferimento digitale per chi cerca una vacanza speciale in un ambiente accogliente e autentico. Il sito è stato progettato per essere: 
@@ -32,7 +30,7 @@ L’obiettivo finale è offrire un’ospitalità unica, con servizi di alta qual
     ⭐️ inserire una recensione
 
 
-    Cliente **non registrato
+    Cliente non registrato
     👁️ visualizzare le camere disponibili 
     📖 leggere le recensioni
     📝 procedere alla registrazione per creare un account personale
