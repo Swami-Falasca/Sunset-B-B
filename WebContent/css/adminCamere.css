@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* ===== COMUNE ===== */
+main {
+    padding: 30px 40px;
+}
+
+h2 {
+    color: #2D5873;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    text-decoration: none;
+    color: #2D5873;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #2D5873;
+    padding: 7px 16px;
+    border-radius: 6px;
+}
+
+.btn-back:hover {
+    background: #2D5873;
+    color: white;
+}
+
+/* ===== TABELLA ORDINI ===== */
+.ordini-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ordini-table th {
+    background: #2D5873;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 0.83rem;
+}
+
+.ordini-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.85rem;
+    color: #333;
+    vertical-align: middle;
+}
+
+.ordini-table tr:hover td {
+    background: #f4f8fb;
+}
+
+.badge-citta {
+    background: #e8f0f5;
+    color: #2D5873;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.badge-prezzo {
+    background: #e8f5ee;
+    color: #2a7a4f;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.notti-badge {
+    background: #f0eafa;
+    color: #6a3db8;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px;
+    color: #aaa;
+    font-size: 1rem;
+}
+
+/* ===== MODIFICA CAMERA ===== */
+.form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 0.82rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.93rem;
+    color: #333;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2D5873;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.btn-salva {
+    background: #2D5873;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-salva:hover {
+    background: #1a3a4a;
+}
+
+.città-info {
+    background: #e8f0f5;
+    color: #2D5873;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+}
+
+.azioni-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 12px;
+}
