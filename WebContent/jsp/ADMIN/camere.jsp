@@ -3,7 +3,7 @@
 <%@ page import="it.unisa.model.dao.RecensioneDAO" %>
 <%
     Admin admin = (Admin) session.getAttribute("admin");
-    if (admin == null) { response.sendRedirect("LoginAdmin.jsp"); return; }
+if (admin == null) { response.sendRedirect(request.getContextPath() + "/jsp/ACCEDI/Login.jsp"); return; }
     List<Camera> camere = (List<Camera>) request.getAttribute("camere");
 
     RecensioneDAO recDAO = new RecensioneDAO();
@@ -13,6 +13,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestione B&B</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/dashboard.css">
@@ -32,6 +33,7 @@
         <a href="<%= request.getContextPath() %>/jsp/ADMIN/Dashboard.jsp" class="btn-back">← Dashboard</a>
     </div>
 
+    <div class="tabella-responsive">
     <table class="camere-table">
         <thead>
             <tr>
@@ -61,6 +63,7 @@
         <% } } %>
         </tbody>
     </table>
+    </div>
 
     <!-- ===== SEZIONE RECENSIONI ===== -->
     <div class="rec-admin-section">
@@ -68,6 +71,7 @@
         <% if (tutteRec.isEmpty()) { %>
             <p>Nessuna recensione presente.</p>
         <% } else { %>
+        <div class="tabella-responsive">
         <table class="rec-admin-table">
             <thead>
                 <tr>
@@ -97,6 +101,7 @@
             <% } %>
             </tbody>
         </table>
+        </div>
         <% } %>
     </div>
 
