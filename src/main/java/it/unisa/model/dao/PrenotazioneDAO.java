@@ -118,4 +118,49 @@ public class PrenotazioneDAO {
 		    }
 		    return lista;
 		}
+	 
+	 public List<Prenotazione> findByUtente(int idUtente) {
+		    List<Prenotazione> lista = new ArrayList<>();
+		    String sql = "SELECT * FROM prenotazioni WHERE id_utente = ? ORDER BY id DESC";
+		    try (Connection con = DBManager.getConnection();
+		         PreparedStatement stmt = con.prepareStatement(sql)) {
+		        stmt.setInt(1, idUtente);
+		        try (ResultSet rs = stmt.executeQuery()) {
+		            while (rs.next()) {
+		                Prenotazione p = new Prenotazione();
+		                p.setId(rs.getInt("id"));
+		                p.setNomeUtente(rs.getString("nome_utente"));
+		                p.setCognomeUtente(rs.getString("cognome_utente"));
+		                p.setNomeBnb(rs.getString("nome_bnb"));
+		                p.setCitta(rs.getString("citta"));
+		                p.setCheckin(rs.getDate("checkin").toLocalDate());
+		                p.setCheckout(rs.getDate("checkout").toLocalDate());
+		                p.setAdulti(rs.getInt("adulti"));
+		                p.setBambini(rs.getInt("bambini"));
+		                p.setCamere(rs.getInt("camere"));
+		                p.setPrezzoTotale(rs.getDouble("totale"));
+		                p.setImmagineBnb(rs.getString("immagine_bnb"));
+		                lista.add(p);
+		            }
+		        }
+		    } catch (SQLException e) {
+		        e.printStackTrace();
+		    }
+		    return lista;
+		}
+
+		// Cancellazione sicura: elimina solo se la prenotazione appartiene davvero
+		// all'utente loggato, così nessuno può cancellare prenotazioni altrui
+		// manomettendo l'id nel form.
+		public void cancellaPrenotazioneByIdEUtente(int idPrenotazione, int idUtente) {
+		    String sql = "DELETE FROM prenotazioni WHERE id = ? AND id_utente = ?";
+		    try (Connection con = DBManager.getConnection();
+		         PreparedStatement ps = con.prepareStatement(sql)) {
+		        ps.setInt(1, idPrenotazione);
+		        ps.setInt(2, idUtente);
+		        ps.executeUpdate();
+		    } catch (SQLException e) {
+		        throw new RuntimeException("Errore durante la cancellazione della prenotazione con id " + idPrenotazione, e);
+		    }
+		}
 }
