@@ -3,6 +3,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatti</title>
 
     <!-- Google Fonts -->
@@ -12,7 +13,7 @@
 
     <!-- Foglio di stile principale -->
     <style><%@include file="/css/Contatti.css" %></style>
-   
+
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/footer.css">
 </head>
 <body>
