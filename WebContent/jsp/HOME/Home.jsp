@@ -188,6 +188,9 @@
 
  
 
+<script>
+  const CONTEXT_PATH = "<%= request.getContextPath() %>";
+</script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/it.js"></script>
 <script src="<%= request.getContextPath() %>/js/home.js"></script>
