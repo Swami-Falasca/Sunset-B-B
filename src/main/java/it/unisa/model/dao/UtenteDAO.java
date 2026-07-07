@@ -9,28 +9,35 @@ import it.unisa.util.PasswordUtils;
 public class UtenteDAO {
 
     // 🔐 Registrazione nuovo utente con password hashata
-    public boolean registraUtente(Utente utente) throws SQLException {
-        String sql = "INSERT INTO utenti (nome, cognome, data_nascita, tipo_documento, numero_documento, nome_file, residenza, email, password) " +
-                     "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+	public boolean registraUtente(Utente utente) throws SQLException {
+	    String sql = "INSERT INTO utenti (nome, cognome, data_nascita, tipo_documento, numero_documento, nome_file, residenza, email, password) " +
+	                 "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+	    try (Connection conn = DBManager.getConnection();
+	         PreparedStatement ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-        try (Connection conn = DBManager.getConnection();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
+	        ps.setString(1, utente.getNome());
+	        ps.setString(2, utente.getCognome());
+	        ps.setDate(3, utente.getDataNascita());
+	        ps.setString(4, utente.getTipoDocumento());
+	        ps.setString(5, utente.getNumeroDocumento());
+	        ps.setString(6, utente.getNome_file());
+	        ps.setString(7, utente.getResidenza());
+	        ps.setString(8, utente.getEmail());
+	        ps.setString(9, utente.getPassword());
 
-            ps.setString(1, utente.getNome());
-            ps.setString(2, utente.getCognome());
-            ps.setDate(3, utente.getDataNascita());
-            ps.setString(4, utente.getTipoDocumento());
-            ps.setString(5, utente.getNumeroDocumento());
-            ps.setString(6, utente.getNome_file());
-            ps.setString(7, utente.getResidenza());
-            ps.setString(8, utente.getEmail());
+	        int righeInserite = ps.executeUpdate();
 
-            // Hash della password prima di salvarla
-            ps.setString(9, utente.getPassword()); // già hashata dalla servlet
+	        if (righeInserite > 0) {
+	            try (ResultSet rs = ps.getGeneratedKeys()) {
+	                if (rs.next()) {
+	                    utente.setId(rs.getInt(1)); // 🔑 riassegna l'ID vero all'oggetto
+	                }
+	            }
+	        }
 
-            return ps.executeUpdate() > 0;
-        }
-    }
+	        return righeInserite > 0;
+	    }
+	}
 
     // 🔍 Trova utente tramite email
     public Utente findByEmail(String email) {
