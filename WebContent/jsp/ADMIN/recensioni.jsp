@@ -2,10 +2,10 @@
 <%@ page import="it.unisa.model.Admin, it.unisa.model.Recensione, java.util.List" %>
 <%
     Admin admin = (Admin) session.getAttribute("admin");
-    if (admin == null) {
-        response.sendRedirect("LoginAdmin.jsp");
-        return;
-    }
+if (admin == null) {
+    response.sendRedirect(request.getContextPath() + "/jsp/ACCEDI/Login.jsp");
+    return;
+}
     List<Recensione> recensioni = (List<Recensione>) request.getAttribute("recensioni");
 %>
 <!DOCTYPE html>
@@ -34,6 +34,7 @@
 <% if (recensioni == null || recensioni.isEmpty()) { %>
     <p class="nessuna">Nessuna recensione presente.</p>
 <% } else { %>
+    <div class="tabella-responsive">
     <table class="recensioni-table">
         <thead>
             <tr>
@@ -75,6 +76,7 @@
         <% } %>
         </tbody>
     </table>
+    </div>
 <% } %>
 
 </body>
