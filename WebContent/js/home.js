@@ -107,38 +107,46 @@ document.addEventListener("DOMContentLoaded", function () {
     suggestionsList.className = 'suggestions-list';
     searchInput.parentNode.appendChild(suggestionsList);
 
-    let cities = [];
+	let cities = [];
 
-    fetch("citta.json")
-        .then(response => response.json())
-        .then(data => { cities = data; });
+	// Chiamata AJAX vera al servlet, che legge le città direttamente dal DB.
+	// Così ogni città aggiunta/modificata dall'admin è subito visibile qui,
+	// senza dover più toccare a mano nessun file JSON.
+	fetch(CONTEXT_PATH + '/GetCittaServlet')
+	    .then(response => response.json())
+	    .then(data => {
+	        // Ricostruisco la stringa "Nome, Regione" come faceva il vecchio JSON,
+	        // così tutto il resto (Bnb.jsp compreso) continua a funzionare invariato
+	        cities = data.map(c => `${c.nome}, ${c.regione}`);
+	    })
+	    .catch(err => console.error('Errore nel caricamento delle città:', err));
 
-    searchInput.addEventListener('input', (e) => {
-        const inputValue = e.target.value.toLowerCase().trim();
-        suggestionsList.innerHTML = '';
+	searchInput.addEventListener('input', (e) => {
+	    const inputValue = e.target.value.toLowerCase().trim();
+	    suggestionsList.innerHTML = '';
 
-        if (inputValue.length > 0) {
-            const filteredCities = cities.filter(city =>
-                city.toLowerCase().startsWith(inputValue)
-            );
-            suggestionsList.style.display = filteredCities.length ? 'block' : 'none';
+	    if (inputValue.length > 0) {
+	        const filteredCities = cities.filter(city =>
+	            city.toLowerCase().startsWith(inputValue)
+	        );
+	        suggestionsList.style.display = filteredCities.length ? 'block' : 'none';
 
-            const fragment = document.createDocumentFragment();
-            filteredCities.forEach(city => {
-                const div = document.createElement('div');
-                div.className = 'suggestion-item';
-                div.textContent = city;
-                div.addEventListener('click', () => {
-                    searchInput.value = city;
-                    suggestionsList.style.display = 'none';
-                });
-                fragment.appendChild(div);
-            });
-            suggestionsList.appendChild(fragment);
-        } else {
-            suggestionsList.style.display = 'none';
-        }
-    });
+	        const fragment = document.createDocumentFragment();
+	        filteredCities.forEach(city => {
+	            const div = document.createElement('div');
+	            div.className = 'suggestion-item';
+	            div.textContent = city;
+	            div.addEventListener('click', () => {
+	                searchInput.value = city;
+	                suggestionsList.style.display = 'none';
+	            });
+	            fragment.appendChild(div);
+	        });
+	        suggestionsList.appendChild(fragment);
+	    } else {
+	        suggestionsList.style.display = 'none';
+	    }
+	});
 
     document.addEventListener('click', (e) => {
         if (!searchInput.contains(e.target) && !suggestionsList.contains(e.target)) {
