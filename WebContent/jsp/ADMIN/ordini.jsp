@@ -2,13 +2,14 @@
 <%@ page import="it.unisa.model.Admin, it.unisa.model.Prenotazione, java.util.List" %>
 <%
     Admin admin = (Admin) session.getAttribute("admin");
-    if (admin == null) { response.sendRedirect("LoginAdmin.jsp"); return; }
+if (admin == null) { response.sendRedirect(request.getContextPath() + "/jsp/ACCEDI/Login.jsp"); return; }
     List<Prenotazione> prenotazioni = (List<Prenotazione>) request.getAttribute("prenotazioni");
 %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizza Ordini</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/dashboard.css">
@@ -35,6 +36,7 @@
             📭 Nessuna prenotazione trovata.
         </div>
     <% } else { %>
+    <div class="tabella-responsive">
     <table class="ordini-table">
         <thead>
             <tr>
@@ -74,6 +76,7 @@
         <% } %>
         </tbody>
     </table>
+    </div>
     <% } %>
 </main>
 </body>
