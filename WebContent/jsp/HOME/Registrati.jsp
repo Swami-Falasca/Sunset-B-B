@@ -4,6 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrati</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,10 @@
 <div class="form-container">
     <div class="container">
         <h2>Crea un account</h2>
-        <form action="<%= request.getContextPath() %>/HOME/GestioneFormRegistrati" method="post" enctype="multipart/form-data">
+        <form id="registraForm"
+      action="<%= request.getContextPath() %>/HOME/GestioneFormRegistrati"
+      method="post"
+      enctype="multipart/form-data">
 
             <div class="form-group">
                 <label for="nome">Nome:</label>
@@ -34,10 +38,15 @@
                 <input type="text" id="cognome"style="outline:none" name="cognome" required placeholder="Inserisci il tuo cognome">
             </div>
 
-            <div class="form-group">
-                <label for="data_nascita">Data di nascita:</label>
-                <input type="date" id="data_nascita"style="outline:none" name="data_nascita" required>
-            </div>
+        <div class="form-group">
+    <label for="data_nascita">Data di nascita:</label>
+    <input type="date"
+           id="data_nascita"
+           style="outline:none"
+           name="data_nascita"
+           required>
+    <span class="campo-errore" id="errore-data"></span>
+</div>
 
             <div class="form-group">
                 <label for="documento">Documento di riconoscimento:</label>
@@ -67,14 +76,26 @@
             </div>
 
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" style="outline:none" name="email" required placeholder="Inserisci la tua email">
-            </div>
+    <label for="email">Email:</label>
+    <input type="email"
+           id="email"
+           style="outline:none"
+           name="email"
+           required
+           placeholder="Inserisci la tua email">
+    <span class="campo-errore" id="errore-email"></span>
+</div>
 
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" style="outline:none" name="password" required placeholder="Crea una password">
-            </div>
+        <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password"
+           id="password"
+           style="outline:none"
+           name="password"
+           required
+           placeholder="Crea una password">
+    <span class="campo-errore" id="errore-password"></span>
+</div>
 
             <div class="form-group terms-container">
                 <input type="checkbox" id="terms" required>
